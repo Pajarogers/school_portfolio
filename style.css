@@ -42,7 +42,7 @@ body{
   padding: 15px 32px;
   cursor: pointer;
   transition-duration: 0.4s;
-  margin-left: 42px;
+  margin-left: 48px;
   border-style: inset;
   border-width: 4px;
 }
@@ -69,10 +69,35 @@ box-sizing: border-box;
 
 .requirements{
   display:inline-block;
-  width:133px;
+  width:135px;
   height: 50px;
   color: silver;
-  margin-left: 58px;
+  margin-left: 66px;
+  vertical-align: text-top;
+}
+
+.requirements1{
+  display:inline-block;
+  width:135px;
+  height: 50px;
+  color: silver;
+  margin-left: 10px;
+  vertical-align: text-top;
+}
+.requirements3{
+  display:inline-block;
+  width:135px;
+  height: 50px;
+  color: silver;
+  margin-left: 80px;
+  vertical-align: text-top;
+}
+.requirements4{
+  display:inline-block;
+  width:135px;
+  height: 50px;
+  color: silver;
+  margin-left: 50px;
   vertical-align: text-top;
 }
 /* width */
@@ -97,7 +122,7 @@ box-sizing: border-box;
 .nav_bar{
   font-family: serif;
   padding-left: 30px;
-  background-color: black;
+  background-color: rgb(95, 148, 248);
   width: 100%;
   opacity: 0.5;
  
@@ -150,7 +175,7 @@ box-sizing: border-box;
   
 }
 .overlap4{
-  color: rgb(93, 117, 158);
+  color: rgb(89, 144, 239);
   transform: rotate(-30deg);
   font-size: 12px;
   top: 265px;
@@ -160,7 +185,7 @@ box-sizing: border-box;
   padding-left: 5px;
 }
 .overlap5{
-  color: rgb(93, 117, 158);
+  color: rgb(60, 125, 238);
   transform: rotate(-30deg);
   font-size: 12px;
   top: 289px;
@@ -170,7 +195,7 @@ box-sizing: border-box;
   padding-left: 10px;
 }
 .overlap6{
-  color: rgb(93, 117, 158);
+  color: rgb(32, 107, 237);
   transform: rotate(-30deg);
   font-size: 12px;
   top: 280px;
@@ -212,10 +237,10 @@ footer{
   opacity:0.3;
   display: inline;
   font-size: 24px;
-  color: rgb(93, 117, 158);
+  color: rgb(28, 190, 254);
 }
 .overlap9{
-  color: rgb(93, 117, 158);
+  color: rgb(51, 183, 248);
   transform: rotate(-30deg);
   font-size: 12px;
   top: 165px;
@@ -256,18 +281,18 @@ footer{
 }
 .pcolor{
   font-size: 13px;
-  color: rgb(93,117,158);
+  color: rgb(221, 235, 242);
   opacity: 0.3;
 }
 .pcolor1{
   font-size: 13px;
-  color: rgb(93,117,158);
+  color: rgb(235, 240, 250);
   opacity: 0.3;
   margin-left: 335px;
 }
 .pcolor2{
   font-size: 13px;
-  color: rgb(93,117,158);
+  color: rgb(244, 246, 249);
   opacity: 0.3;
   margin-left: 985px;
 }
