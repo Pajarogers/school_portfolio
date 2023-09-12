@@ -1,3 +1,36 @@
+
+/*index page CSS*/
+
+  /* generic setting */
+*{
+    padding: 0;
+    margin: 2px;
+    box-sizing: border-box;
+  }
+
+  /*title size, font and color*/
+.header{
+  font-size:56px;
+  color: rgb(27, 22, 157);
+  margin-left: 250px;
+  margin-top: 10px;
+  font-family:sans-serif;
+  text-shadow: 5px 5px 8px rgb(206, 206, 245);
+}
+/*title contaniner*/
+.header_container{
+  width:auto;
+  height:30px ;
+  position: relative;
+}
+
+body{
+  background-color: rgb(4, 5, 62);
+  padding-bottom: 150px;
+}
+
+
+  /*video css*/  
 .video_size{
   position: relative;
   width:auto;
@@ -8,28 +41,9 @@
   bottom: 75px;
   opacity: 0.5;
 }
-/*title contaniner*/
-.header_container{
-    width:auto;
-    height:30px ;
-    position: relative;
-}
-/*title size, font and color*/
-.header{
-    font-size:56px;
-    color: rgb(27, 22, 157);
-    margin-left: 250px;
-    margin-top: 10px;
-    font-family:sans-serif;
-    text-shadow: 5px 5px 8px rgb(206, 206, 245);
 
-}
 
-body{
-    background-color: rgb(4, 5, 62);
-    padding-bottom: 150px;
-}
-/*button*/
+/*buttons*/
 .buttons{
   background-color: azure;
   border-radius: 10px;
@@ -60,12 +74,7 @@ body{
     justify-content: space-between;
     padding: 0 5%;
   }
-  /* generic setting */
-*{
-padding: 0;
-margin: 2px;
-box-sizing: border-box;
-}
+
 
 .requirements{
   display:inline-block;
@@ -295,4 +304,58 @@ footer{
   color: rgb(244, 246, 249);
   opacity: 0.3;
   margin-left: 985px;
+}
+
+
+/*design process css started here*/
+.design_bg{
+  background-color: #f1f1f1;
+  
+}
+.image_size_des{
+  width: 270px;
+  height: 270px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: -10px;
+  border: 1px;
+  border-color: #888;
+}
+.design{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 15px;
+}
+
+.design1{
+  background-color: rgba(230, 34, 103, 0.87);
+  display:inline-block;
+  height: 750px;
+  width: 570px;
+  font-family: Georgia;
+  padding: 40px;
+ 
+}
+.design2{
+  background-color: rgb(157, 238, 151);
+  display:inline-block;
+  height: 750px;
+  width: 570px;
+  font-family: Georgia;
+  padding: 50px;
+  
+}
+.menu_bar ul li{
+  display: inline;
+  margin-left: 200px;
+}
+.container_image{
+  width: 350px;
+  height: 220px;
+  margin-left: auto;
+  margin-right:auto;
+  padding-top: 2px;
+  display: block;
+  padding-bottom: 3px;
 }
