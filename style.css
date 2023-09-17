@@ -12,10 +12,73 @@ div .title_Des{
   color: rgb(182, 205, 205);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 28px;
-  margin: 0;
-  width: auto;
+  margin-left:40%;
+  padding-bottom: 12px;
   
 }
+video{
+  width: 540px;
+  height: 420px;
+  position: absolute;
+  padding-left: 138px;
+  padding-right: 138px;
+}
+
+.container{
+  width: 570px;
+  height: 420px;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transform: rotateX(-10deg) rotateZ(-10deg);
+  margin-left: auto;
+  margin-right: 23%;
+  animation: ror 30s linear infinite;
+}
+@keyframes ror{
+  50%{
+    transform: rotateX(30deg);
+  }
+  80%{
+    transform: rotateX(-30deg);
+  }
+}
+.video_clip{
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotate 30s linear infinite;
+}
+@keyframes rotate{
+  from{
+
+  }
+  to{
+    transform:  rotateY(360deg);
+  }
+}
+video:nth-child(1){
+  transform: rotateY(60deg) translateZ(300px);
+}
+video:nth-child(2){
+  transform: rotateY(120deg) translateZ(300px);
+}
+video:nth-child(3){
+  transform: rotateY(180deg) translateZ(300px);
+}
+video:nth-child(4){
+  transform: rotateY(240deg) translateZ(300px);
+}
+video:nth-child(5){
+  transform: rotateY(300deg) translateZ(300px);
+}
+video:nth-child(6){
+  transform: rotateY(360deg) translateZ(300px);
+}
+
+
 
 .header_container{
   width:auto;
