@@ -4,24 +4,28 @@
   /* generic setting */
 *{
     padding: 0;
-    margin: 2px;
+    margin: 0px;
     box-sizing: border-box;
   }
-
-  /*title size, font and color*/
-.header{
-  font-size:56px;
-  color: rgb(27, 22, 157);
-  margin-left: 250px;
-  margin-top: 10px;
-  font-family:sans-serif;
-  text-shadow: 5px 5px 8px rgb(206, 206, 245);
+ 
+div .title_Des{
+  color: rgb(182, 205, 205);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  margin: 0;
+  width: auto;
+  
 }
-/*title contaniner*/
+
 .header_container{
   width:auto;
-  height:30px ;
+  height:20px ;
   position: relative;
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  
+
 }
 
 body{
@@ -128,14 +132,8 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-.nav_bar{
-  font-family: serif;
-  padding-left: 30px;
-  background-color: rgb(95, 148, 248);
-  width: 100%;
-  opacity: 0.5;
+
  
-}
 /* spacing for in between menu list */
 .nav_bar ul li{
   display: inline;
@@ -307,6 +305,10 @@ footer{
 }
 
 
+
+
+
+
 /*design process css started here*/
 .design_bg{
   background-color: #f1f1f1;
@@ -336,10 +338,7 @@ footer{
   width:1240px;
  
 }
-.design2{
- 
-  
-}
+
 .menu_bar ul li{
   display: inline;
   margin-left: 200px;
@@ -358,4 +357,142 @@ footer{
   width: 575px;
   height: 475px;
   margin-left: 25px;
+}
+
+.img-girl{
+  width:30% ;
+  height:15% ;
+  align-items: center;
+  display: inline;
+}
+
+
+
+
+/*Flexbox for navigation Menu main view these have 3 parts mobile, desktop, labtop*/
+.d-body{
+  margin: 0;
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  color: black;
+  
+}
+.header {
+  background-color: white;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  width: 100%;
+  position:fixed;
+  z-index:3;
+  right: 0;
+  height: 10%;
+  font-size: 16px;
+}
+.header ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: white;
+}
+.header ul a{
+  display: block;
+  color: rgb(22, 2, 2);
+  padding: 20px;
+  border-right: 1px solid #aaa;
+  text-decoration: none;
+}
+.header ul a:hover{
+  background-color: #ddd;
+}
+.header .logo{
+  float: left;
+  display: block;
+  font-size: 2em;
+  padding: 10px 20px;
+}
+
+/*mobile nav*/
+.header .menu{
+  clear: both;
+  max-height: 0;
+  transition: max-height 2s ease-out;
+}
+
+.header .menu-icon{
+  padding: 28px 20px;
+  position: relative;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 0;
+  float: left;
+}
+
+.header .menu-icon .nav-icon{
+  background-color: gray;
+  display: block;
+  height:2px ;
+  width:18px ;
+  position: relative;
+  transition: background .2s ease-out;
+
+}
+.header .menu-icon .nav-icon:before{
+  background: gray;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  transition: all .2s ease-out;
+}
+.header .menu-icon .nav-icon:after{
+  background: gray;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -5px;
+  transition: all .2s ease-out;
+}
+.header .menu-btn{
+  display: none;
+}
+.menu-icon{
+  color: white;
+}
+/*make menu expand and change the icon if box is checked*/
+.header .menu-btn:checked ~ .menu{
+  max-height:240px ;
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon{
+background: transparent;
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before{
+  transform: rotate(-45deg);
+  top: 0;
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+  transform: rotate(45deg);
+  top: 0;
+}
+
+@media(min-width:48em){
+  .header li{
+    float:left
+  }
+  .header li a{
+    padding:20px 30px;
+  }
+  .header .menu{
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon{
+    display: none;
+  }
 }
