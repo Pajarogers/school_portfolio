@@ -313,8 +313,8 @@ footer{
   
 }
 .image_size_des{
-  width: 270px;
-  height: 270px;
+  width: 370px;
+  height:370px;
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -329,21 +329,15 @@ footer{
 }
 
 .design1{
-  background-color: rgba(230, 34, 103, 0.87);
-  display:inline-block;
-  height: 750px;
-  width: 570px;
+  background-color: rgba(217, 192, 70, 0.87);
+  display:block;
   font-family: Georgia;
   padding: 40px;
+  width:1240px;
  
 }
 .design2{
-  background-color: rgb(157, 238, 151);
-  display:inline-block;
-  height: 750px;
-  width: 570px;
-  font-family: Georgia;
-  padding: 50px;
+ 
   
 }
 .menu_bar ul li{
@@ -358,4 +352,10 @@ footer{
   padding-top: 2px;
   display: block;
   padding-bottom: 3px;
+}
+
+.sub_img{
+  width: 575px;
+  height: 475px;
+  margin-left: 25px;
 }
