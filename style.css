@@ -303,6 +303,7 @@ footer{
   display:block;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 10px;
+  margin-bottom: 25px;
 }
 .design span{
   color: #555;
@@ -332,9 +333,25 @@ footer{
   padding-top: 2px;
   padding-bottom: 3px;
   border-radius: 20px;
+  margin-right: 25px;
+}
+.sub_img3{
+  max-width: 35%;
+  margin: auto;
+  display:inline-block;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  margin-right: 25px;
 }
 .sub_img1{
   max-width: 1%;
+  margin: auto;
+  display:inline-block;
+  padding-top: 2px;
+}
+.sub_img2{
+  max-width: 50%;
   margin: auto;
   display:inline-block;
   padding-top: 2px;
@@ -351,15 +368,96 @@ transition: .5s;
   margin-left: 200px;
 }
 
-
-
-
 .img-girl{
   width:30% ;
   height:15% ;
   align-items: center;
   display: inline;
 }
+
+
+
+/*div2 */
+
+.design1{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgba(182, 180, 174, 0.87);
+  display:block;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.design1 span{
+  color: rgba(53, 52, 50, 0.87);
+}
+.design1 a{
+  font-size: 18px;
+  color:royalblue;
+}
+/* image for design container title*/
+.container_image1{
+  max-width: 30%;
+  margin: auto;
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  transition: 0.4s ease-in-out transform;
+ 
+ 
+}
+.sub_img2n{
+  max-width: 25%;
+  margin: auto;
+  display:inline-block;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  margin-right: 25px;
+}
+.sub_img2_2{
+  max-width: 35%;
+  margin: auto;
+  display:inline-block;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  margin-right: 25px;
+}
+.sub_imgs{
+  max-width: 1%;
+  margin: auto;
+  display:inline-block;
+  padding-top: 2px;
+}
+.sub_img_task{
+  max-width: 50%;
+  margin: auto;
+  display:inline-block;
+  padding-top: 2px;
+}
+.sub_img1 :hover{
+cursor: pointer;
+max-width: 26%;
+max-height:26%;
+transition: .5s;
+}
+.sub_img_suv{
+  max-width: 50%;
+  margin: auto;
+  display:inline-block;
+  padding-top: 2px;
+}
+
+
+
+
 
 
 
