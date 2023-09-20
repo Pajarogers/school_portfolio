@@ -489,11 +489,9 @@ margin-left: 10px;
 }
 .g_size{
   max-width: 20%;
-  max-height: 20%;
+  max-height: 30%;
   display: block;
-  position: absolute;
-  
- 
+  position: relative;
 }
 
 
