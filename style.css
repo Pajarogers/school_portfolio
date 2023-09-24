@@ -15,6 +15,21 @@
 /**beginning of nav bar**/
   /*Flexbox for navigation Menu main view these have 3 parts mobile, desktop, labtop*/
 
+  .object-hearder h1{
+    align-items: center;
+  }
+  .oh{
+   margin-left: 170px;
+   font-size: 16px;
+   font-weight: bold;
+  }
+  .title{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+  }
+
 a{
   color: black;
   
@@ -287,18 +302,18 @@ footer{
  transition: 0.4s ease-in-out transform;
  margin-bottom: 15px;
 }
-/* object statment sixe*/
+/* object statment six*/
 .object{
   font-size: 18px;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 170px;
 }
 /*project 1 div*/
 .design{
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0.5rem;
+  padding-left: 20px;
   padding: 0.5rem;
   background-color: rgba(217, 192, 70, 0.87);
   display:block;
@@ -488,11 +503,59 @@ padding: 10px;
 margin-left: 10px;
 }
 .g_size{
-  max-width: 20%;
-  max-height: 30%;
+  min-width: 60%;
+  min-height: 60%;
+  margin: auto;
+  display:block;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: 0.4s ease-in-out transform;
+}
+.link-color{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgb(157, 63, 137);
+  cursor: pointer;
+}
+.image-link{
+  max-width:45% ;
+  max-height:45% ;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
   display: block;
   position: relative;
+  margin: auto;
+  padding-top: 10px;
 }
 
+/*Platform starts/  platform starts*/
 
-
+.image_size_des1 img{
+  max-width: 25%;
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  transition: 0.4s ease-in-out transform;
+  margin-bottom: 15px;
+ }
+ .sub_imgsp{
+  max-width: 5%;
+  max-height: 5%;
+  margin: auto;
+  display:inline-block;
+  padding-top: 2px;
+}
+.image_platform{
+  max-width: 40%;
+  max-height: 20%;
+}
