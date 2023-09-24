@@ -536,6 +536,9 @@ margin-left: 10px;
   padding-top: 10px;
 }
 
+
+
+/*Platform starts/  platform starts*/
 /*Platform starts/  platform starts*/
 
 .image_size_des1 img{
@@ -558,4 +561,39 @@ margin-left: 10px;
 .image_platform{
   max-width: 40%;
   max-height: 20%;
+}
+.object1{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 370px;
+}
+.image-link1{
+  max-width:25% ;
+  max-height:45% ;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  display: block;
+  position: relative;
+  margin: auto;
+  padding-top: 10px;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+.image-link2{
+  max-width:35% ;
+  max-height:35% ;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  display: block;
+  position: relative;
+  margin: auto;
+  padding-top: 10px;
+  display: inline-block;
+  margin-bottom: 15px;
 }
