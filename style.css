@@ -622,3 +622,16 @@ margin-left: 10px;
   font-weight: bold;
   margin-left: 20px;
 }
+.image-link4{
+  max-width:30% ;
+  max-height:25% ;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  padding-top: 10px;
+  margin-left: 450px;
+}
